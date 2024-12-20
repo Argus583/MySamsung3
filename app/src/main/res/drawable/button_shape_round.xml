@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FF9F80"/> <!-- Цвет фона кнопки -->
+    <corners android:radius="30dp"/> <!-- Радиус округления углов -->
+    <stroke android:color="#F6F5F4" android:width="2dp"/> <!-- Цвет и ширина обводки кнопки -->
+</shape>

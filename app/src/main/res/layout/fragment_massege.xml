@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/entryMainPage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="306dp"
+        android:layout_height="151dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="71dp"
+        android:gravity="center"
+        android:text="Хотите сохранить результат или отобразить ваше имя??"
+        android:textAppearance="@android:style/TextAppearance.Material.Small"
+        android:textColor="#F4511E"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/YesBoth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/YesBoth"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="178dp"
+        android:background="@color/colorPrimary"
+        android:text="ДА, отображать обе"
+        android:textColor="#E6E6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.362"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
+
+    <Button
+        android:id="@+id/onlyScore"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="27dp"
+        android:background="@color/colorPrimary"
+        android:text="ДА, только балл"
+        android:textColor="#EDEDED"
+        app:layout_constraintBottom_toTopOf="@+id/No"
+        app:layout_constraintEnd_toEndOf="@id/YesBoth"
+        app:layout_constraintTop_toBottomOf="@+id/YesBoth" />
+
+    <Button
+        android:id="@+id/No"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:text="НЕТ, ВЕРНУТЬСЯ НА ГЛАВНУЮ"
+        android:textColor="#EDF0F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/onlyScore"
+        app:layout_constraintTop_toBottomOf="@+id/onlyScore"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

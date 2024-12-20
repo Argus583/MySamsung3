@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#3500ffff</color>
+    <color name="board_background">#ffe6f0ff</color>
+
+    <color name="disable_foreground_grey">#000000</color>
+
+    <color name="disable_thumb_grey">#5C5C5C</color>
+
+    <color name="enable_thumb_white">#FFFFFF</color>
+    <color name="background_color">#F5F5F5</color> <!-- Светлый серый -->
+    <color name="title_color">#FF5722</color>       <!-- Оранжевый для заголовка -->
+    <color name="points_text_color">#4CAF50</color> <!-- Зелёный для очков -->
+    <color name="boom_text_color">#F44336</color>   <!-- Красный для "Boom" -->
+    <color name="description_text_color">#212121</color> <!-- Тёмно-серый для текста описания -->
+</resources>
